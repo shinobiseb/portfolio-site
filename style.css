@@ -193,12 +193,41 @@ nav {
         transition: 300ms ease;
 }
 
-/* ----------------- SKILLS CONT   ------------------- */
+.last-project {
+  margin-bottom: 0;
+}
+
+/* ----------------- SKILLS   ------------------- */
 
 .skills-cont {
   height: 200px;
   width: 100%;
-  border: 2px solid red;
+  border-top: 3px solid var(--red);
+  border-bottom: 3px solid var(--red);
+}
+
+/* ----------------- FOOTER   ------------------- */
+
+footer {
+  margin-bottom: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icon-links {
+  margin: 0px;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
 }
 
 /* ----------------- MEDIA QUERIES   ------------------- */

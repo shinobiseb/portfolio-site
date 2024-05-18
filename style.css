@@ -184,6 +184,10 @@ nav {
   align-items: center;
 }
 
+.project-desc-cont {
+  overflow: auto;
+}
+
 .card {
   background-color: var(--blue);
 }
